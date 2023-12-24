@@ -1,6 +1,4 @@
-﻿using congestion_tax_calculator_contractor.Enums;
-
-namespace congestion_tax_calculator_contractor.Requests;
+﻿namespace congestion_tax_calculator_contractor.Requests;
 
 public class CongestionTaxRequest
 {
