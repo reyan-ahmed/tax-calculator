@@ -59,3 +59,4 @@ And here is the example for Tax Exempt vehicles
 ## Improvement:
 There are alot of things left for Improvement, The unit test left, As we should connected with database and get tax details and exempt vehicles details from the database.
 Get once only the dates with tax details for the specific city and then call this method to get total tax.
+Also can handle properly error messages, as we as validation

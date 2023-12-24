@@ -4,6 +4,10 @@ public class CongestionTaxService : ICongestionTaxService
 {
     public int GetTotalTax(CongestionTaxRequest congestionTaxRequest)
     {
+        if (congestionTaxRequest.Dates.Count() <= 0)
+        {
+            throw new Exception("Invalid Input");
+        }
         if (IsTollFreeVehicle(VehicleType(congestionTaxRequest.VehicleTypeId)))
             return 0;
 
